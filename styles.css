@@ -1,0 +1,35 @@
+html{
+  width: 100%;
+  height: 100%;
+  background: url("images/302.jpg") no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+}
+
+#icon {
+  margin:0 auto;
+  display: inline-block;
+  padding: 2em;
+  border-radius: 13px;
+}
+
+.weatherResult {
+  margin:0 auto;
+  display: inline-block;
+  background-color: #C7C2C2;
+  opacity: 0.5;
+  padding: 2em;
+  border: 1.25em;
+  border-radius: 13px;
+
+}
+
+#loading{
+  display: block;
+  margin:0 auto;
+  height: 40px;
+  width: 40px;
+  background-image: url('images/ajax-loader.gif');
+}
