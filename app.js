@@ -36,7 +36,7 @@ function Parse(obj){
   //html += '<h3>Current weather:</h3>';
   html += '<div class="weatherResult">' + obj.weather[0].description + '</div>';
   //html += '<h3>Current wind speed:</h3>';
-  html += '<div class="weatherResult">' + obj.wind.speed + ' m/s</div>';
+  html += '<div class="weatherResult">' + obj.wind.speed + ' m/s wind speed</div>';
   //html += '<h3>Current location:</h3>';
   html += '<div class="weatherResult">' + obj.name + '</div>';
 

@@ -8,6 +8,10 @@ html{
   font-family: 'Helvetica', sans-serif;
 }
 
+#title {
+  font-family: 'Share';
+}
+
 #icon {
   margin:0 auto;
   display: inline-block;
@@ -16,20 +20,22 @@ html{
 }
 
 .weatherResult {
-  margin:0 auto;
   display: inline-block;
-  background-color: #C7C2C2;
-  opacity: 0.5;
-  padding: 2em;
-  border: 1.25em;
-  border-radius: 13px;
+  border: 2px solid #ffffff;
+  color: #7F3320;
+  padding: 2% 1% 2% 1%;
+  margin: 0 auto 0.7% auto; 
+  background-color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: .2em .2em .2em #444;
+  opacity: 0.7;
 
 }
 
 #loading{
   display: block;
   margin:0 auto;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-image: url('images/ajax-loader.gif');
 }
